@@ -1,4 +1,6 @@
 # define
-Simple dictionary definition from the command line
+Simple dictionary definition from the command line.
+
+# install
 compile on your own, or download the binary and place either in your bin
 directory or somewhere and add the path to your .bash_profile
