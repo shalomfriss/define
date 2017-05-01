@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		313EEC791EB75601001EAA65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 313EEC781EB75601001EAA65 /* main.m */; };
+		313EEC811EB756A6001EAA65 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313EEC801EB756A6001EAA65 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		313EEC751EB75601001EAA65 /* Define */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Define; sourceTree = BUILT_PRODUCTS_DIR; };
 		313EEC781EB75601001EAA65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		313EEC801EB756A6001EAA65 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313EEC811EB756A6001EAA65 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				313EEC771EB75601001EAA65 /* Define */,
 				313EEC761EB75601001EAA65 /* Products */,
+				313EEC7F1EB756A6001EAA65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +64,14 @@
 				313EEC781EB75601001EAA65 /* main.m */,
 			);
 			path = Define;
+			sourceTree = "<group>";
+		};
+		313EEC7F1EB756A6001EAA65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				313EEC801EB756A6001EAA65 /* CoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
